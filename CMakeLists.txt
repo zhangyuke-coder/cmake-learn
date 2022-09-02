@@ -1,3 +1,4 @@
+# zyk
 cmake_minimum_required (VERSION 2.6)
 project (Tutorial)
 set(Tutorial_VERSION_MAJOR 1)
