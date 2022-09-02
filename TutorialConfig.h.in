@@ -1,0 +1,6 @@
+
+// 由两个 @ 标注的变量将会被 CMake 替换为版本号
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+
+#cmakedefine USE_MYMATH

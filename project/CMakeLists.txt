@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 3.0)
+project (myProject)
+get_cmake_property(_variableNames VARIABLES)
+foreach (_variableName ${_variableNames})
+    message(STATUS "${_variableName}=${${_variableName}}")
+endforeach()
+add_executable (t1 source1.cxx)
